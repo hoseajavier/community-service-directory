@@ -1,75 +1,28 @@
-# React + TypeScript + Vite
+# Community Connect Network - Responsive Community Service Directory
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, accessible, and responsive public benefit web directory built to help local residents, students, families, and senior citizens efficiently discover essential social welfare and support services within their neighborhood zones.
 
-Currently, two official plugins are available:
+## Live Demonstration
+- **Deployment URL:** [https://ccn-directory.vercel.app](https://ccn-directory.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Core Project Features
+- **Client-Side Search Engine:** Real-time, instant keyword matching passing through data text properties without server overhead delays.
+- **Stacked Filter Controls:** Reactive dropdown matrix filtering allowing users to simultaneously filter items by category and regional sector locations.
+- **Dynamic Program Routing:** Comprehensive individual service views presenting contacts, business hours, and deep accessibility requirements via parameterized tokens.
+- **Accessible Form Validation:** Fully customized interactive request form implementing immediate alert feedback boundaries, semantic aria attributes, and visual error boundary handling.
+- **Universal Device Optimization:** Adaptive layouts scaling across desktop, tablet, and compressed mobile views powered by a custom touch-target mobile hamburger overlay.
 
-## React Compiler
+## Technology Stack Array
+- **Core Library:** React 18
+- **Language Compiler:** TypeScript
+- **Build Tooling:** Vite
+- **Styling Utility:** Tailwind CSS
+- **Navigation Routing:** React Router
+- **Icon Assets:** Lucide React
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
-```
+## Local Development Installation
+```bash
+  git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+  cd community-service-directory
+  npm install
+  npm run dev
