@@ -1,28 +1,183 @@
-# Community Connect Network - Responsive Community Service Directory
+# Community Connect Network
 
-A modern, accessible, and responsive public benefit web directory built to help local residents, students, families, and senior citizens efficiently discover essential social welfare and support services within their neighborhood zones.
+A responsive community service directory built with **React**, **TypeScript**, **Vite**, and **Tailwind CSS**. This project was developed as part of the **Independent Portfolio** to demonstrate frontend development, responsive design, routing, and component-based architecture.
 
-## Live Demonstration
-- **Deployment URL:** [https://ccn-directory.vercel.app](https://ccn-directory.vercel.app)
+> **Disclaimer:** This is a fictional portfolio project created for educational purposes only. All organizations, services, and information are fictional and do not represent any real organization.
 
-## Core Project Features
-- **Client-Side Search Engine:** Real-time, instant keyword matching passing through data text properties without server overhead delays.
-- **Stacked Filter Controls:** Reactive dropdown matrix filtering allowing users to simultaneously filter items by category and regional sector locations.
-- **Dynamic Program Routing:** Comprehensive individual service views presenting contacts, business hours, and deep accessibility requirements via parameterized tokens.
-- **Accessible Form Validation:** Fully customized interactive request form implementing immediate alert feedback boundaries, semantic aria attributes, and visual error boundary handling.
-- **Universal Device Optimization:** Adaptive layouts scaling across desktop, tablet, and compressed mobile views powered by a custom touch-target mobile hamburger overlay.
+---
 
-## Technology Stack Array
-- **Core Library:** React 18
-- **Language Compiler:** TypeScript
-- **Build Tooling:** Vite
-- **Styling Utility:** Tailwind CSS
-- **Navigation Routing:** React Router
-- **Icon Assets:** Lucide React
+## Project Overview
 
-## Local Development Installation
+Community Connect Network is a web application that helps users discover community support services through a clean and responsive interface.
+
+Users can browse available services, search by keywords, filter by category or location, and view detailed information for each service.
+
+The project demonstrates modern frontend development practices while using only local JSON data.
+
+---
+
+## Features
+
+- Responsive Landing Page
+- Community Service Directory
+- Search Functionality
+- Category Filtering
+- Location Filtering
+- Service Detail Page
+- Contact Form with Client-side Validation
+- Responsive Navigation
+- Component-Based Architecture
+- Local JSON Data Source
+- Mobile, Tablet, and Desktop Support
+
+---
+
+## Tech Stack
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- React Router
+- Git & GitHub
+- Netlify/Vercel
+
+---
+
+## Installation
+
+Clone the repository:
+
 ```bash
-  git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-  cd community-service-directory
-  npm install
-  npm run dev
+git clone https://github.com/YOUR_USERNAME/community-service-directory.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd community-service-directory
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+---
+
+## Setup
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open your browser and visit:
+
+```
+http://localhost:5173
+```
+
+---
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+---
+
+## Project Structure
+
+```
+src/
+│
+├── assets/
+├── components/
+├── pages/
+├── data/
+├── routes/
+├── App.tsx
+└── main.tsx
+```
+
+---
+
+## Usage
+
+Users can:
+
+- Browse available community services
+- Search services using keywords
+- Filter services by category
+- Filter services by location
+- View detailed service information
+- Submit questions through the contact form
+
+---
+
+## Limitations
+
+- Uses local JSON data only.
+- No backend or database integration.
+- Contact form does not send data to a server.
+- No user authentication.
+- No real-time service updates.
+
+---
+
+## Future Improvements
+
+Potential future enhancements include:
+
+- Backend integration
+- PostgreSQL database
+- User authentication
+- Admin dashboard
+- Service management system
+- Interactive maps
+- Favorites and bookmarks
+- Accessibility improvements (WCAG)
+- API integration
+- Advanced search and filtering
+
+---
+
+## Deployment
+
+This project can be deployed using Vercel.
+
+Live Demo:
+
+```
+https://ccn-directory.vercel.app
+```
+
+GitHub Repository:
+
+```
+https://github.com/hoseajavier/community-service-directory
+```
+
+---
+
+## Author
+
+**Hosea Javier**
+
+Frontend Developer
+
+---
+
+## License
+
+This project is intended for educational and portfolio purposes only.
