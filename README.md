@@ -49,7 +49,7 @@ The project demonstrates modern frontend development practices while using only 
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/community-service-directory.git
+git clone https://github.com/hoseajavier/community-service-directory.git
 ```
 
 Navigate to the project directory:
@@ -105,7 +105,6 @@ src/
 ├── components/
 ├── pages/
 ├── data/
-├── routes/
 ├── App.tsx
 └── main.tsx
 ```
